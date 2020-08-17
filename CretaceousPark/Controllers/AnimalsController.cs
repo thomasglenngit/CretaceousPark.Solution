@@ -55,12 +55,10 @@ namespace CretaceousPark.Controllers
     public ActionResult<IEnumerable<Animal>> Get(string species)
     {
       var query = _db.Animals.AsQueryable();
-
       if (species != null)
       {
         query = query.Where(entry => entry.Species == species);
       }
-
       return query.ToList();
     }
   }
