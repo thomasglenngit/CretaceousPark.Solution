@@ -161,7 +161,6 @@ with the root project folder open in your code editor, execute the following in 
 
 <br>
 
-# **❤️Contributors**
 
 <br>
 
